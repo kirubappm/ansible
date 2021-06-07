@@ -4,7 +4,7 @@
   tasks:
     - name: Create new dir if not
       file:
-        path: /root/jdfa
+        path: /root/jdfb
         state: directory
-        mode: 0755
+        mode: 0777
 ...
