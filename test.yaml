@@ -1,6 +1,6 @@
 ---
 - name: Play for creating dir
-  hosts:all
+  hosts: all
   tasks:
     - name: Create new dir if not
       file:
